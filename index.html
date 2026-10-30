@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asesoría 1 a 1 | Carly Montiel (@soycarlym)</title>
+
+    <!-- Metaetiquetas SEO / Open Graph -->
+    <meta name="description" content="Mentoría y asesoría personalizada 1 a 1 con Carly Montiel (@soycarlym). Encuentra claridad, resiliencia y un plan de acción para levantar tu proyecto.">
+    <meta property="og:title" content="Asesoría Personalizada 1 a 1 - Carly Montiel">
+    <meta property="og:description" content="Justo allí donde te rompiste está tu espacio para crecer. Diseñemos una estrategia a tu medida.">
+    <meta property="og:type" content="website">
+
+    <!-- Tailwind CSS (CDN) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tipografías Oficiales de Marca: Plus Jakarta Sans e Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Configuración del Sistema Cromático Servitec Gamarra (Manual de Marca V1.0) -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brandOlive: '#4B5320',      /* Verde Oliva / Estructural */
+                        brandOrange: '#E53E3E',     /* Naranja Eléctrico / Acento CTA */
+                        brandOrangeHover: '#E0481D',/* Estado Hover CTA */
+                        brandCharcoal: '#1E2022',   /* Carbón Técnico / Tipografía y Fondo Oscuro */
+                        brandSky: '#E8F1F5',        /* Azul Cielo Lavado / Fondos limpios */
+                        brandWhite: '#FFFFFF'       /* Blanco Pulcro */
+                    },
+                    fontFamily: {
+                        heading: ['"Plus Jakarta Sans"', 'sans-serif'],
+                        sans: ['Inter', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #1E2022;
+            background-color: #FFFFFF;
+        }
+        h1, h2, h3, h4, .font-heading {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-brandWhite text-brandCharcoal antialiased selection:bg-brandOrange selection:text-white">
+
+    <!-- Header Sticky con Efecto Blur -->
+    <header class="w-full py-4 px-6 border-b border-gray-100 sticky top-0 bg-brandWhite/90 backdrop-blur-md z-50 transition-all">
+        <div class="max-w-5xl mx-auto flex justify-between items-center">
+            <a href="#" class="text-xl font-extrabold tracking-tight text-brandCharcoal hover:text-brandOlive transition-colors flex items-center gap-2">
+                <span class="w-3 h-3 rounded-full bg-brandOrange inline-block"></span>
+                @soycarlym
+            </a>
+            <a href="https://wa.me/584144329597?text=Hola%20Carly,%20quiero%20agendar%20mi%20asesor%C3%ADa%20personalizada" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="hidden sm:inline-flex bg-brandOrange hover:bg-brandOrangeHover text-white font-semibold px-6 py-2.5 rounded-full transition-all text-sm shadow-md hover:shadow-lg active:scale-95">
+                Agendar Sesión
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-16 md:py-24 px-6 bg-gradient-to-b from-brandSky/60 to-brandWhite">
+        <div class="max-w-4xl mx-auto text-center space-y-6">
+            <!-- Badge / Distintivo -->
+            <span class="inline-flex items-center gap-2 bg-brandOlive/10 text-brandOlive text-xs font-bold tracking-wider uppercase px-4 py-1.5 rounded-full border border-brandOlive/20">
+                <span class="w-2 h-2 rounded-full bg-brandOlive animate-pulse"></span>
+                Mentora & Conferencista
+            </span>
+            
+            <!-- Headline Principal -->
+            <h1 class="text-4xl md:text-6xl font-extrabold text-brandCharcoal leading-tight tracking-tight">
+                Te ayudo a levantarte <br class="hidden md:block"/>
+                <span class="text-brandOlive">después del fracaso</span>
+            </h1>
+            
+            <!-- Subtitle -->
+            <p class="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
+                Justo allí donde te rompiste está tu espacio para crecer. Obtén la claridad, resiliencia y el plan de acción necesario para impulsar tu vida y negocio.
+            </p>
+            
+            <!-- CTA Principal -->
+            <div class="pt-6">
+                <a href="https://wa.me/584144329597?text=Hola%20Carly,%20quiero%20agendar%20mi%20asesor%C3%ADa%20personalizada" 
+                   target="_blank" 
+                   rel="noopener noreferrer" 
+                   class="inline-flex items-center justify-center bg-brandOrange hover:bg-brandOrangeHover text-white text-lg font-bold px-8 py-4 rounded-full shadow-xl hover:shadow-2xl transition transform active:scale-95">
+                    Quiero mi Asesoría 1 a 1
+                    <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Puntos de Dolor / Validación ("¿Esta asesoría es para ti?") -->
+    <section class="py-16 md:py-20 px-6 bg-brandWhite">
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center space-y-3 mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-brandCharcoal">
+                    ¿Sientes que es momento de reconectar?
+                </h2>
+                <p class="text-gray-600 max-w-xl mx-auto">
+                    Si te identificas con alguna de estas situaciones, la mentoría 1 a 1 es el espacio diseñado para ti.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Tarjeta 1 -->
+                <div class="p-8 bg-brandSky/40 rounded-2xl border border-brandSky hover:border-brandOlive/30 transition-all space-y-4">
+                    <div class="w-12 h-12 bg-brandOlive text-white flex items-center justify-center rounded-xl font-bold text-xl shadow-sm">
+                        ⚡
+                    </div>
+                    <h3 class="font-bold text-xl text-brandCharcoal">Bloqueo o Parálisis</h3>
+                    <p class="text-sm text-gray-600 leading-relaxed">
+                        Invertiste tiempo y recursos en una idea que no funcionó como esperabas y hoy no sabes por dónde reiniciar.
+                    </p>
+                </div>
+
+                <!-- Tarjeta 2 -->
+                <div class="p-8 bg-brandSky/40 rounded-2xl border border-brandSky hover:border-brandOlive/30 transition-all space-y-4">
+                    <div class="w-12 h-12 bg-brandOlive text-white flex items-center justify-center rounded-xl font-bold text-xl shadow-sm">
+                        🎯
+                    </div>
+                    <h3 class="font-bold text-xl text-brandCharcoal">Falta de Claridad</h3>
+                    <p class="text-sm text-gray-600 leading-relaxed">
+                        Tienes potencial y experiencia, pero te cuesta empaquetar tu talento y proyectar una imagen de autoridad que venda.
+                    </p>
+                </div>
+
+                <!-- Tarjeta 3 -->
+                <div class="p-8 bg-brandSky/40 rounded-2xl border border-brandSky hover:border-brandOlive/30 transition-all space-y-4">
+                    <div class="w-12 h-12 bg-brandOlive text-white flex items-center justify-center rounded-xl font-bold text-xl shadow-sm">
+                        🌱
+                    </div>
+                    <h3 class="font-bold text-xl text-brandCharcoal">Necesidad de Estrategia</h3>
+                    <p class="text-sm text-gray-600 leading-relaxed">
+                        Buscas acompañamiento profesional, sincero y directo que te ahorre meses de prueba y error constante.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Qué Incluye la Asesoría -->
+    <section class="py-16 md:py-20 px-6 bg-brandSky/50">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-brandCharcoal mb-12">
+                ¿Qué incluye tu sesión de mentoría?
+            </h2>
+
+            <div class="space-y-6">
+                <!-- Item 1 -->
+                <div class="flex items-start gap-5 p-6 bg-brandWhite rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+                    <div class="w-10 h-10 rounded-full bg-brandSky flex items-center justify-center text-brandOlive font-bold text-lg flex-shrink-0">
+                        1
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-lg text-brandCharcoal">Sesión Privada 1 a 1 (60 Minutos)</h3>
+                        <p class="text-gray-600 text-sm mt-1 leading-relaxed">
+                            Evaluación profunda de tu situación actual, identificando los puntos de quiebre y las oportunidades reales de crecimiento.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="flex items-start gap-5 p-6 bg-brandWhite rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+                    <div class="w-10 h-10 rounded-full bg-brandSky flex items-center justify-center text-brandOlive font-bold text-lg flex-shrink-0">
+                        2
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-lg text-brandCharcoal">Plan de Acción & Estrategia Clara</h3>
+                        <p class="text-gray-600 text-sm mt-1 leading-relaxed">
+                            Sal de la sesión con pasos concretos y accionables para ejecutar de inmediato sin rodeos ni teorías abstractas.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="flex items-start gap-5 p-6 bg-brandWhite rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+                    <div class="w-10 h-10 rounded-full bg-brandSky flex items-center justify-center text-brandOlive font-bold text-lg flex-shrink-0">
+                        3
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-lg text-brandCharcoal">Seguimiento Posterior por Chat</h3>
+                        <p class="text-gray-600 text-sm mt-1 leading-relaxed">
+                            Acompañamiento directo para resolver dudas y ajustar la ejecución a medida que das los primeros pasos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Carly Montiel -->
+    <section class="py-16 md:py-24 px-6 bg-brandWhite">
+        <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-10">
+            <!-- Foto de Perfil / Marco de Autoridad -->
+            <div class="relative w-48 h-48 md:w-56 md:h-56 flex-shrink-0">
+                <div class="absolute inset-0 bg-brandOlive rounded-full rotate-6 opacity-20"></div>
+                <div class="w-full h-full rounded-full bg-brandSky border-4 border-brandWhite shadow-xl overflow-hidden relative z-10 flex items-center justify-center">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=600" 
+                         alt="Carly Montiel - Mentora y Conferencista" 
+                         class="w-full h-full object-cover">
+                </div>
+            </div>
+
+            <!-- Contenido Biográfico -->
+            <div class="space-y-4 text-center md:text-left">
+                <span class="text-brandOlive font-extrabold text-sm tracking-wider uppercase">Conferencista & Mentora</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-brandCharcoal">¡Hola! Soy Carly Montiel</h2>
+                <p class="text-gray-600 leading-relaxed">
+                    Acompaño a emprendedores y profesionales a transformar sus momentos de caída en sus mayores catalizadores de éxito.
+                </p>
+                <p class="text-gray-600 leading-relaxed">
+                    A través de conferencias y mentorías privadas, entrego herramientas prácticas para comunicar con poder, valorar tu talento y estructurar estrategias reales de negocio.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Cierre y CTA Final -->
+    <section id="agendar" class="py-16 md:py-20 px-6 bg-brandCharcoal text-white text-center relative overflow-hidden">
+        <div class="max-w-3xl mx-auto space-y-6 relative z-10">
+            <h2 class="text-3xl md:text-5xl font-extrabold leading-tight">
+                ¿Lista/o para convertir tu proceso en crecimiento?
+            </h2>
+            <p class="text-gray-300 text-lg max-w-xl mx-auto">
+                No dejes tu estrategia al azar. Reserva tu espacio hoy y comencemos a estructurar tu siguiente nivel.
+            </p>
+            <div class="pt-4">
+                <a href="https://wa.me/584144329597?text=Hola%20Carly,%20quiero%20agendar%20mi%20asesor%C3%ADa%20personalizada" 
+                   target="_blank" 
+                   rel="noopener noreferrer" 
+                   class="inline-block bg-brandOrange hover:bg-brandOrangeHover text-white text-lg font-bold px-10 py-4 rounded-full shadow-2xl transition transform active:scale-95">
+                    Reservar mi Asesoría Ahora
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Minimalista -->
+    <footer class="py-8 text-center text-xs text-gray-500 bg-brandWhite border-t border-gray-100">
+        <p>&copy; 2026 @soycarlym — Todos los derechos reservados.</p>
+        <p class="mt-1 text-gray-400">Desarrollado bajo la arquitectura técnica de Servitec Gamarra</p>
+    </footer>
+
+    <!-- Botón CTA Flotante exclusivo para Móviles (< 640px) -->
+    <div class="sm:hidden fixed bottom-4 left-4 right-4 z-50">
+        <a href="https://wa.me/584144329597?text=Hola%20Carly,%20quiero%20agendar%20mi%20asesor%C3%ADa%20personalizada" 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           class="flex items-center justify-center bg-brandOrange text-white font-bold text-base py-3.5 px-6 rounded-full shadow-2xl border border-white/20 active:scale-95 transition-all">
+            💬 Agendar Asesoría por WhatsApp
+        </a>
+    </div>
+
+</body>
+</html>
